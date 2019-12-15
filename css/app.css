@@ -1,0 +1,42 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+#logo {
+    color: #fc0146;
+}
+#img-logo {
+    width: 60px;
+    margin: 10px 0;
+}
+.nav-item {
+    margin-left: 100px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgba(252, 1, 70,.9);
+}
+a.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner {
+    padding-top: 120px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+.circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.circulo img {
+    object-fit: cover;
+    object-position: center;
+}
+.titulo {
+    color: #fc0146;
+}
+.box {
+    margin-bottom: 100px;
+}
