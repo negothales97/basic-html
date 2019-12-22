@@ -9,14 +9,19 @@ body {
     margin: 10px 0;
 }
 .nav-item {
-    margin-left: 100px;
+    margin-left: 150px;
 }
+.navbar-nav {
+    margin-right: 100px;
+}
+
 .navbar-light .navbar-nav .active>.nav-link {
     color: rgba(252, 1, 70,.9);
 }
 a.nav-link {
     text-transform: uppercase;
     font-weight: bold;
+    white-space: nowrap;
 }
 .banner {
     padding-top: 120px;
@@ -26,8 +31,8 @@ h2 {
     text-transform: uppercase;
 }
 .circulo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 .circulo img {
@@ -39,4 +44,16 @@ h2 {
 }
 .box {
     margin-bottom: 100px;
+}
+.box-card {
+    margin: 50px 0;
+}
+.box-card h3 {
+    padding-top: 30px;
+}
+@media (max-width:992px){
+    .nav-item {
+        margin-left: 0;
+    }
+    
 }
